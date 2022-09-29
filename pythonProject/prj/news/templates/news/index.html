@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+ <head>
+     <meta charset="UTF-8">
+     <title>Title</title>
+ </head>
+ <body>
+ { %
+   for new in news %}  # news - это context_object_name из views
+   < tr >
+   < td > {{new.title}} < / td >  # перебираем new обращаясь к его атрибутам, это объект нашей модели Post
+   < td > {{new.postCategory}} < / td >
+   < td > {{new.author}} < / td >
+   < td > {{new.dateCreation}} < / td >
+   < td > {{new.text}} < / td >
+   < td > {{new.rating}} < / td >
+
+< / tr >
+ {% endfor%}
+
+ </body>
+ </html>

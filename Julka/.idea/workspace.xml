@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eaacb598-d15f-4dd7-8046-3cc2cabd27a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Julka.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/.idea/newsportal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/NewsPaper/fpages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/NewsPaper/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/flatpages/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newsportal/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/pythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/pythonProject3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../shop/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/django2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/djangotest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/djangotest/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/djangotest/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/djangotest/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/djangotest/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/fpages/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/static/assets/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/templates/flatpages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/templates/flatpages/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/templates/flatpages/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/templates/flatpages/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django2/djangotest/templates/flatpages/workinprogres.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/pythonProject2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/project/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/project/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/project/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/project/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/templatetags/custom_filters.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/templatetags/custom_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/simpleapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/static/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/templates/flatpages/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject2/project/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject3/prj/prj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject3/prj/prj/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FPS0BG2lZlQNkwtlYJK9JYfmnj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Julka" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eaacb598-d15f-4dd7-8046-3cc2cabd27a1" name="Changes" comment="" />
+      <created>1664392000658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664392000658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
