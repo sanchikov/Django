@@ -4,7 +4,7 @@ from .models import Post
 # Создаем свой набор фильтров для модели Post.
 # FilterSet, который мы наследуем,
 # должен чем-то напомнить знакомые вам Django дженерики.
-class PostFilter(FilterSet):
+class Postfilter(FilterSet):
    class Meta:
        # В Meta классе мы должны указать Django модель,
        # в которой будем фильтровать записи.

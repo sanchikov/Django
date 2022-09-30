@@ -5,18 +5,16 @@
      <title>Title</title>
  </head>
  <body>
- { %
-   for new in news %}  # news - это context_object_name из views
+ {% for post in news %}  # news - это context_object_name из views
    < tr >
-   < td > {{new.title}} < / td >  # перебираем new обращаясь к его атрибутам, это объект нашей модели Post
-   < td > {{new.postCategory}} < / td >
-   < td > {{new.author}} < / td >
-   < td > {{new.dateCreation}} < / td >
-   < td > {{new.text}} < / td >
-   < td > {{new.rating}} < / td >
-
-< / tr >
- {% endfor%}
+   < td > {{post.title}} < / td >  # перебираем new обращаясь к его атрибутам, это объект нашей модели Post
+   < td > {{post.postCategory}} < / td >
+   < td > {{post.author}} < / td >
+   < td > {{post.dateCreation}} < / td >
+   < td > {{post.text}} < / td >
+   < td > {{post.rating}} < / td >
+   < / tr >
+ {% endfor %}
 
  </body>
  </html>

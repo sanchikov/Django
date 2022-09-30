@@ -1,7 +1,7 @@
 from django.core.exceptions import ValidationError
 from django.forms import forms
 
-from .models import Post
+from .models import *
 
 
 class NewPostForm(forms.ModelForm):
@@ -25,3 +25,11 @@ def clean(self):
                 "Описание не должно быть идентично названию."
             )
         return cleaned_data
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ['title',
+                  'text'
+                  'description',
+                  ]

@@ -1,25 +1,36 @@
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from django.shortcuts import render
-from .models import Post, PostCategory
-from .filters import PostFilter
-from .forms import NewPostForm
+from django.shortcuts import *
+from .models import *
+from .filters import Postfilter
+from .forms import *
+from datetime import *
+from django.views import View
+from django.core.paginator import Paginator
 
-class PostList(ListView):
+class NewsList(ListView):
    model = Post
-   template_name = 'index.html'
-   context_object_name = 'post'
-   paginate_by = 2
+   template_name = 'news.html'
+   context_object_name = 'news_list'
+   paginate_by = 6
+   ordering = ['-dateCreation']
    form_class = NewPostForm
 
 
 def get_context_data(self, **kwargs):
     context = super().get_context_data(**kwargs)
-    context['filter'] = PostFilter(self.request.GET, queryset=self.get_queryset())
-    # context['categories'] = PostCategory.objects.all()
-    # context['form'] = NewPostForm()
-    # return context
+    context['category_it'] = Category.objects.get(category_name='IT').id
+    context['category_live'] = Category.objects.get(category_name='Live').id
+    context['category_auto'] = Category.objects.get(category_name='Auto').id
+    context['category_weather'] = Category.objects.get(category_name='Weather').id
+    context['category_money'] = Category.objects.get(category_name='Money').id
+    context['current_time'] = datetime.now()
+    return context
 
+@staticmethod
+def post(self, request):
+    request.session['django_timezone'] = request.POST['timezone']
+    return redirect('/profile')
 
 def post(self, request, *args, **kwargs):
     form = self.form_class(request.POST)  # создаём новую форму, забиваем в неё данные из POST-запроса
