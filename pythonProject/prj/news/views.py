@@ -10,10 +10,10 @@ from django.core.paginator import Paginator
 
 class NewsList(ListView):
    model = Post
-   template_name = 'news.html'
-   context_object_name = 'news_list'
-   paginate_by = 6
    ordering = ['-dateCreation']
+   template_name = 'news.html'
+   context_object_name = 'index'
+   paginate_by = 6
    form_class = NewPostForm
 
 
@@ -54,7 +54,7 @@ class PostDetail(DetailView):
 
 def index(request):
     news = Post.objects.all()
-    return render(request, 'index.html', context={'news': news})
+    return render(request, 'news.html', context={'news': news})
 
 def detail(request, slug):
     news = Post.objects.get(slug__iexact=slug)

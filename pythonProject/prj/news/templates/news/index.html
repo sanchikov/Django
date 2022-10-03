@@ -1,13 +1,13 @@
- <!DOCTYPE html>
+{% extends 'flatpages/default.html' %}
  <html lang="ru">
  <head>
      <meta charset="UTF-8">
      <title>Title</title>
  </head>
  <body>
- {% for post in news %}  # news - это context_object_name из views
+ {% for post in news %}
    < tr >
-   < td > {{post.title}} < / td >  # перебираем new обращаясь к его атрибутам, это объект нашей модели Post
+   < td > {{post.title}} < / td >
    < td > {{post.postCategory}} < / td >
    < td > {{post.author}} < / td >
    < td > {{post.dateCreation}} < / td >

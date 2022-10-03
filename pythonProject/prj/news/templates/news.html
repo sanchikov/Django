@@ -1,14 +1,13 @@
-{% extends 'default.html' %}
-
+{% extends 'flatpages/default.html' %}
 
 {% block title %}
-News Portal
+Все новости!
 {% endblock title %}
 
 <!-- В контенте на странице мы выводим все новости -->
 {% block content %}
 
-<div>
+
     <h1>Все новости</h1>
     <h3>{{ time_now|date:'d M Y' }}</h3>
 <!--    <br>-->
@@ -21,7 +20,7 @@ News Portal
             <input type="submit" value="Найти">
         </form>
     <hr>
-{% if news %}
+{% if Post %}
     <table style="margin: auto" border="2">
         <tr>
             <th> Автор </th>
@@ -30,11 +29,11 @@ News Portal
             <th> Статья </th>
             <th> Рейтинг </th>
         </tr>
-{% for new in filter.qs %}
+{% for Post in filter.qs %}
         <tr>
-            <td> {{ new.postAuthor.authorUser.first_name }} </td>
+            <td> {{ Post.postAuthor.authorUser.first_name }} </td>
 
-            <td> {{ new.rating }} </td>
+            <td> {{ Post.rating }} </td>
         </tr>
 {% endfor %}
     </table>
@@ -81,7 +80,7 @@ News Portal
     <div> {{ form.as_p }} </div>
     <input type="submit" value="Добавить новость\статью">
 </form>
-
+<hr>
 </div>
 
 {% endblock content %}
