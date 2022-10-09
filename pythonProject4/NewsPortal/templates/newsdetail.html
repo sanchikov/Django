@@ -1,0 +1,44 @@
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+
+{% block title %}
+Новость
+{% endblock title %}
+
+{% block content %}
+{% if is_not_authors %}
+<button> <a href="{% url 'upgrade' %}">Стать автором</a></button><br>
+{% endif %}
+
+<a href="/news/">Все новости</a>
+<table align="center">
+    <thead>
+        <th>
+            <h4>Заголовок</h4>
+        </th>
+        <th>
+            <h4>Текст</h4>
+        </th>
+        <th>
+            <h4>Дата публикации</h4>
+        </th>
+    </thead>
+    <tr>
+        <td>
+            {{ newsdetail.title }} <!-- не забываем что переменные в шаблоне ничем не отличаются от переменных в python. Здесь также можно получать доступ к полям класса. Например здесь мы выводим имя, в следующем столбце описание, и т.д.  -->
+        </td>
+        <td>
+            {{ newsdetail.text|censor }} <!-- не забываем что переменные в шаблоне ничем не отличаются от переменных в python. Здесь также можно получать доступ к полям класса. Например здесь мы выводим имя, в следующем столбце описание, и т.д.  -->
+        </td>
+        <td>
+            {{ newsdetail.dateCreation }}
+        </td>
+        <td>
+            {% for category in post.Post_category.all %}
+                        {{ category }}<br>
+            {% endfor %}
+
+        </td>
+    </tr>
+</table>
+{% endblock content %}
