@@ -1,20 +1,21 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from django.shortcuts import *
 from .models import *
-from .filters import Postfilter
+from .filters import *
 from .forms import *
 from datetime import *
 from django.views import View
 from django.core.paginator import Paginator
 
-class NewsList(ListView):
+
+class PostList(ListView):
    model = Post
    ordering = ['-dateCreation']
    template_name = 'news.html'
-   context_object_name = 'index'
-   paginate_by = 6
-   form_class = NewPostForm
+   context_object_name = 'news'
+   paginate_by = 4
 
 
 def get_context_data(self, **kwargs):
@@ -41,10 +42,22 @@ def post(self, request, *args, **kwargs):
 
 class PostSearch(ListView):
     model = Post
-    template_name = 'search.html'
-    context_object_name = 'post'
+    template_name = 'news.html'
+    context_object_name = 'news'
     queryset = Post.objects.order_by('dateCreation')
-    paginate_by = 1
+    paginate_by = 5
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        self.filterset = PostFilter(self.request.GET, queryset)
+        return self.filterset.qs
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Добавляем в контекст объект фильтрации.
+        context['filterset'] = self.filterset
+        return context
+
 
 class PostDetail(DetailView):
     model = Post
@@ -67,26 +80,11 @@ class NEWSOne(DetailView):
    context_object_name = 'post'
 
 
-   def get_queryset(self):
-       # Получаем обычный запрос
-       queryset = super().get_queryset()
-       # Используем наш класс фильтрации.
-       # self.request.GET содержит объект QueryDict, который мы рассматривали
-       # в этом юните ранее.
-       # Сохраняем нашу фильтрацию в объекте класса,
-       # чтобы потом добавить в контекст и использовать в шаблоне.
-       self.filterset = PostFilter(self.request.GET, queryset)
-       # Возвращаем из функции отфильтрованный список товаров
-       return self.filterset.qs
 
-   def get_context_data(self, **kwargs):
-       context = super().get_context_data(**kwargs)
-       # Добавляем в контекст объект фильтрации.
-       context['filterset'] = self.filterset
-       return context
 
-class PostCreate(CreateView):
-    # Указываем нашу разработанную форму
+
+class PostCreate(LoginRequiredMixin, CreateView):
+    raise_exception = True
     form_class = NewPostForm
     # модель товаров
     model = Post

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="928e5315-3abb-494f-a86a-44b386fe24c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/onlieshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/fpages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/onlineshop/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/shop/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/shop/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/shop/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/shop/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/shop/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/templates/flatpages/contact_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../onlieshop/shop/templates/flatpages/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject/prj/news/migrations/0002_alter_post_title.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/pythonProject2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/News/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/NewsPortal/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/Acccounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/News/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/NewsPortal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/NewsPortal/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/NewsPortal/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/NewsPortal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/NewsPortal/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/fpages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/templates/flatpages/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/templates/flatpages/contact_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject3/templates/flatpages/default.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/pythonProject4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/NewsPortal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/NewsPortal/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/NewsPortal/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/NewsPortal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/NewsPortal/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/fpages/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/news/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/403.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/registration/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/registration/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProject4/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/.idea/newsportal.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/NewsPaper/fpages/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/NewsPaper/news/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/flatpages/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/NewsPaper/templates/news.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../newsportal/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/fpages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject3/NewsPortal/fpages/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/custom_filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/news/custom_filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/news/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/flatpages/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/flatpages/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/flatpages/contact_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/flatpages/contact_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/flatpages/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/flatpages/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/news/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/news/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/news/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/news_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/news_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/post_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/post_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/post_edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/post_edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject4/NewsPortal/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/news/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/prj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/prj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/prj/prj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/prj/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../onlieshop/shop/static/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/.idea/pythonProject3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject3/.idea/pythonProject3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/newsapp/команды для Django shell" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/prj/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject3/prj/templates/new.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FtN7dAv0iGVFLEhnrTJXr9V5Af" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newsportal/templates/flatpages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="928e5315-3abb-494f-a86a-44b386fe24c4" name="Changes" comment="" />
+      <created>1665307253613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665307253613</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

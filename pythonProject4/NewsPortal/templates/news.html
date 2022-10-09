@@ -1,0 +1,58 @@
+{% extends 'flatpages/default.html' %}
+
+{% load custom_filters %}
+
+{% load custom_tags %}
+
+{% block title %}
+Новости
+{% endblock title %}
+
+{% block content %}
+   <h1>Все новости</h1>
+   <h3>{{ time_now|date:'M d Y' }}</h3>
+   <hr>
+    <form method="GET">
+    {{ filter.form }} <!-- Форму от фильтров за нас сделает django. А вот кнопку, увы придётся делать самому -->
+    <input type="submit" value="Найти">
+    </form>
+    <table align="center">
+   {% if news %}
+        <table style="margin: auto" border="2">
+           <tr>
+               <td>Звголовок</td>
+               <td>Дата публикации
+               <td>Текст</td>
+               <td>Автор</td>
+               <td>Рейтинг</td>
+               </td>
+           </tr>
+
+           <!-- Для каждого товара будете генерироваться новая строчка,
+
+           т.е. новый HTML код, который указан в теле цикла.
+           При этом сам цикл работает точно так же, как и в Python.
+           product — переменная цикла, т.е. наш товар полученный из списка -->
+           {% for new in news %}
+           <tr>
+               <!-- Не забываем, что переменные в шаблоне ничем не отличаются
+
+                от переменных в Python. Здесь также можно получать доступ к
+                полям объекта модели. Например, здесь мы выводим имя,
+                в следующем столбце описание, и т.д.  -->
+
+               <td>{{ new.title|censor }}</td>
+               <td>{{ new.dateCreation }}</td>
+               <td>{{ new.text|truncatewords:20|censor  }}</td>
+               <td>{{ new.author }}</td>
+               <td>{{ new.rating }}</td>
+
+           </tr>
+           {% endfor %}
+        </table>
+        {% else %}
+       <h2>Новостей нет!</h2>
+
+   {% endif %}
+{% endblock content %}
+
