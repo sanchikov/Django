@@ -37,23 +37,3 @@ def censor(text_to_check):
             text_to_check = text_to_check.replace(word, substitute)
 
     return text_to_check
-
-    # если слово в посте с заглавной буквы например - оно его не находит :(
-    # text = text_to_check
-    #
-    # for word in WORDS_TO_CATCH:
-    #     if ((word in text_to_check.lower())
-    #         or ((word + 's') in text_to_check.lower())
-    #         or ((word + 'er') in text_to_check.lower())
-    #         or ((word + 'est') in text_to_check.lower())) \
-    #             and (len(word) > 2):
-    #         substitute = word[0] + '*' * (len(word) - 2) + word[-1]  # about -> a***t
-    #         text = text_to_check.replace(word, substitute)
-    #
-    # return text
-
-    # не отлавливает замену, если до или после слова стоит знак препинания :(
-    # return ' '.join(word[0] + '*' * (len(word) - 2) + word[-1]
-    #                 if (word.strip('.,"?!/-') in WORDS_TO_CATCH) and (len(word) > 2)
-    #                 else word
-    #                 for word in text_to_check)
