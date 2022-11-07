@@ -1,3 +1,4 @@
+from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post
@@ -7,7 +8,7 @@ from .forms import PostForm
 
 class PostsList(ListView):
     """ Представление всех постов в виде списка. """
-    paginate_by = 3
+    paginate_by = 4
     model = Post
     ordering = 'date_time'
     template_name = 'posts.html'
@@ -42,8 +43,9 @@ class PostDetail(DetailView):
     context_object_name = 'post'
 
 
-class ArticleCreate(CreateView):
+class ArticleCreate(PermissionRequiredMixin, CreateView):
     """ Представление для создания статьи. """
+    permission_required = ('blog.add_post',)
     form_class = PostForm
     model = Post
     template_name = 'post_edit.html'
@@ -54,8 +56,9 @@ class ArticleCreate(CreateView):
         return context
 
 
-class ArticleUpdate(UpdateView):
+class ArticleUpdate(PermissionRequiredMixin, UpdateView):
     """ Представление для редактирования статьи. """
+    permission_required = ('blog.change_post',)
     form_class = PostForm
     model = Post
     template_name = 'post_edit.html'
@@ -66,8 +69,9 @@ class ArticleUpdate(UpdateView):
         return context
 
 
-class ArticleDelete(DeleteView):
+class ArticleDelete(PermissionRequiredMixin, DeleteView):
     """ Представление для удаления статьи. """
+    permission_required = ('blog.delete_post',)
     model = Post
     template_name = 'post_delete.html'
     success_url = reverse_lazy('posts_list')
@@ -79,8 +83,9 @@ class ArticleDelete(DeleteView):
         return context
 
 
-class NewsCreate(CreateView):
+class NewsCreate(PermissionRequiredMixin, CreateView):
     """ Представление для создания новости. """
+    permission_required = ('blog.add_post',)
     form_class = PostForm
     model = Post
     template_name = 'post_edit.html'
@@ -91,8 +96,9 @@ class NewsCreate(CreateView):
         return context
 
 
-class NewsUpdate(UpdateView):
+class NewsUpdate(PermissionRequiredMixin, UpdateView):
     """ Представление для редактирования новости. """
+    permission_required = ('blog.change_post',)
     form_class = PostForm
     model = Post
     template_name = 'post_edit.html'
@@ -103,8 +109,9 @@ class NewsUpdate(UpdateView):
         return context
 
 
-class NewsDelete(DeleteView):
+class NewsDelete(PermissionRequiredMixin, DeleteView):
     """ Представление для удаления новости. """
+    permission_required = ('blog.delete_post',)
     model = Post
     template_name = 'post_delete.html'
     success_url = reverse_lazy('posts_list')
