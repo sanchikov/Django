@@ -1,9 +1,12 @@
 from django.contrib.auth.mixins import PermissionRequiredMixin
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
-from .models import Post
+from .models import Post, Category
 from .filters import PostFilter
 from .forms import PostForm
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import redirect
 
 
 class PostsList(ListView):
@@ -121,3 +124,14 @@ class NewsDelete(PermissionRequiredMixin, DeleteView):
         context['page_title'] = "Удалить новость"
         context['previous_page_url'] = reverse_lazy('posts_list')
         return context
+
+
+@login_required
+def add_subscribe(request, pk):
+    Category.objects.get(pk=pk).subscribers.add(request.user)
+    return redirect('/news/')
+
+@login_required
+def del_subscribe(request, pk):
+    Category.objects.get(pk=pk).subscribers.remove(request.user)
+    return redirect('/news/')
