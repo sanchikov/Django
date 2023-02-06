@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.yandex',
     'sign',
     'protect',
-    #'django_apscheduler',
+    'django_apscheduler',
 ]
 AUTHENTICATION_BACKENDS = [
     'django.contrib.auth.backends.ModelBackend',
@@ -169,3 +169,25 @@ SERVER_EMAIL = os.getenv('DEFF_EMAIL')
 
 APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
 APSCHEDULER_RUN_NOW_TIMEOUT = 25
+
+ANAGERS = [
+    ('ZZZZ', 'example@example.ru'),
+    # список всех менеджеров в формате ('имя', 'их почта')
+]
+
+ADMINS = [
+    ('ZZZZ', 'example@example.ru'),
+    # список всех админов в формате ('имя', 'их почта')
+]
+
+
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+# timezone = 'Europe/Moscow'
+# # enable_utc = True
+# CELERY_TIMEZONE = "Europe/Moscow"
+CELERY_TASK_TIME_LIMIT = 30 * 60
+CELERY_IMPORTS = ('blog',)
